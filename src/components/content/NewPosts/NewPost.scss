@@ -1,0 +1,25 @@
+.new_post{
+    
+    h3{
+        font-family: 'Roboto',sans-serif;
+        font-size: 22px;
+        font-weight: bold;
+        padding-top: 20px;
+        margin-bottom:0;
+    }
+    p{
+        color:#3f3f3f;
+    }
+
+}
+.relate_post{
+    margin-bottom: 25px;
+}
+.relate_post__content{
+    display:flex;
+    h4{
+        margin-left: 8px;
+        font-size: 16px;
+        line-height: 18px;
+    }
+}
