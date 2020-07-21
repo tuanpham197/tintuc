@@ -16,3 +16,32 @@
 .list_post{
     padding-top:35px;
 }
+.main_post{
+    h4{
+        font-size: 17px;
+        font-family: 'Roboto',sans-serif;
+        font-weight: bold;
+        line-height: 16px;
+    }
+    &__content{
+        display: flex;
+        p{
+            color: #000;
+            padding-left: 10px;
+        }
+    }
+}
+.post_category{
+    margin-bottom: 10px;
+}
+.post_relate{
+    display: flex;
+    img{
+        width: 97px;
+    }
+    h5{
+        padding-left: 16px;
+        color:#000;
+        font-size: 15px;
+    }
+}

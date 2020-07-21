@@ -1,15 +1,19 @@
 import React from 'react';
 import 'antd/dist/antd.less';
 import Header from './components/header/Header';
-import { Layout } from 'antd';
+import { Layout, Row } from 'antd';
 import styles  from './App.css';
 import Main from './components/content/Main';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
-    <Layout className={styles.wrapper}>
+    <Layout >
+      <Row className={styles.wrapper}>
         <Header></Header>
         <Main></Main>
+      </Row>
+      <Footer />
     </Layout>
     
   );

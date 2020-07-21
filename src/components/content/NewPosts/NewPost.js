@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Layout, Row, Col } from 'antd';
 import styles  from './NewPost.scss'
+const style = { padding: '0 15px 0 0' };
 
 class NewPost extends Component {
     render() {
@@ -8,7 +9,7 @@ class NewPost extends Component {
             <Layout>
                 <Row>
                     <Col md={15} lg={15} xl={15}>
-                        <div className={styles.new_post}>
+                        <div className={styles.new_post} style={style}>
                             <a href="#">
                                 <div>
                                     <img src="src/assets/image/newpost.png" />
