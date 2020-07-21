@@ -73,7 +73,7 @@ module.exports = {
                     loader: 'css-loader', // translates CSS into CommonJS
                     options : {
 						modules : {
-							localIdentName: '[local]--[hash:base64:5]'
+							localIdentName: '[local]--[hash:base64:7]'
 						},
 						sourceMap : true
 						
