@@ -29,3 +29,18 @@
         width: 120px;
     }
 }
+@media only screen and (max-width:992px){
+    .post_relate_respon{
+        display:flex;
+        flex-wrap: wrap;
+        padding-left: 0 !important;
+    }
+    .relate_post{
+        width: 50%;
+    }
+}
+@media only screen and (max-width:576px){
+    .relate_post{
+        width: 100%;
+    } 
+}

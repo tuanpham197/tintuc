@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import { Layout, Row, Col } from 'antd';
 import styles  from './NewPost.scss'
-const style = { padding: '0 15px 0 0' };
+const style = { padding: '0 0 0 15px' };
 
 class NewPost extends Component {
     render() {
         return (
             <Layout>
                 <Row>
-                    <Col md={15} lg={15} xl={15}>
-                        <div className={styles.new_post} style={style}>
+                    <Col xs={24} sm={24} md={24} lg={15} xl={15}>
+                        <div className={styles.new_post} >
                             <a href="#">
                                 <div>
                                     <img src="src/assets/image/newpost.png" />
@@ -19,7 +19,7 @@ class NewPost extends Component {
                             </a>
                         </div>
                     </Col>
-                    <Col md={9} lg={9} xl={9}>
+                    <Col xs={24} sm={24} md={24} lg={9} xl={9} style={style} className={styles.post_relate_respon}>
                         <div className={styles.relate_post}>
                             <a href="#" >
                                 <div className={styles.relate_post__content}>
@@ -52,7 +52,7 @@ class NewPost extends Component {
                                 </div>
                             </a>
                         </div>
-                        <div>
+                        <div className={styles.relate_post}>
                             <a href="#" >
                                 <div className={styles.relate_post__content}>
                                     <img src="src/assets/image/image-relate-post.png"/>

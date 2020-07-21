@@ -7,3 +7,6 @@
   padding-top: 25px;
   padding-bottom: 25px;
 }
+.ant-input-search{
+  width: auto !important;
+}

@@ -7,14 +7,14 @@ class Header extends Component {
     render() {
         return (
             <Row className={styles.header}>
-                <Col xs={2} sm={4} md={6} lg={2} xl={2}>
+                <Col xs={2} sm={2} md={2} lg={2} xl={2}>
                     <a href="#">
                         <h2 >TINTUC24s</h2>
                     </a>
                 </Col>
-                <Col  md={6} lg={2} xl={2}>
+                <Col xs={1} sm={1} md={1} lg={1} xl={2}>
                 </Col>
-                <Col  md={12} lg={16} xl={16}>
+                <Col xs={2} sm={2} md={17} lg={17} xl={16}>
                     <ul className={styles.menu}>
                         <li>
                             <a href="#s">Trang chủ</a>
@@ -39,11 +39,11 @@ class Header extends Component {
                         </li>
                     </ul>
                 </Col>
-                <Col xs={2} sm={4} md={6} lg={4} xl={4}>
+                <Col xs={2} sm={4} md={4} lg={4} xl={4}>
                     <Search
                         placeholder="Tìm kiếm"
                         onSearch={value => console.log(value)}
-                        style={{ width: 200 }}
+                        style={{ width: "auto" }}
                     />
                 </Col>
           </Row>
