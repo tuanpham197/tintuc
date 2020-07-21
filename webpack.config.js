@@ -72,11 +72,16 @@ module.exports = {
 				{
                     loader: 'css-loader', // translates CSS into CommonJS
                     options : {
-                        modules : true
+						modules : {
+							localIdentName: '[local]--[hash:base64:5]'
+						},
+						sourceMap : true
+						
                     }
 				}, 
 				{
-                    loader: 'sass-loader', // compiles Less to CSS                    
+					loader: 'sass-loader', // compiles Less to CSS  
+					             
 				}
             ]
         },
